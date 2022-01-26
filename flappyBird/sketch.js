@@ -1,4 +1,5 @@
-var panSpeed = 8;
+var panSpeed = 8; //player.js에 panSpeed가 변수에 할당되는데 그것이 무엇인지 sketch.js에 나온다. 
+                  //이런 것이 가능한 이유는 html파일에 sketch.js가 palyer.js 보다 선행하는 파일로 위치해 있기 때문이다. 
 var gravity = 3;
 var player;
 
