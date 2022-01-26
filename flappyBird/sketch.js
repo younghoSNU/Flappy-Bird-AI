@@ -40,7 +40,7 @@ var isChristmas = true;
 
 function preload() {
   if (isChristmas) {
-    birdSprite = loadImage("images/christmasberd.png");
+    birdSprite = loadImage("images/christmasberd0.png");
   } else {
     birdSprite = loadImage("images/fatBird.png");
   }
